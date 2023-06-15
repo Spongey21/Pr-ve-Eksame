@@ -1,0 +1,33 @@
+@import url('./navigation.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --light-gray: #F3F4F5;
+    --gray: #8392A0;
+    --bright-yellow: #FFD600;
+
+    --primary-background-color: #3B4C5C;
+    --secondary-background-color: #262F38;
+    --background-accent: #75D1FF;
+
+    --button-color: #E74C3C;
+    --icon-color: #92c880;
+
+
+    --small-font: clamp(1px, 14px, 20px);
+    --medium-font: clamp(0, 18px, 0);
+    --large-font: clamp(0, 26px, 0);
+    --big-font: clamp(0, 60px, 0);
+    --very-big-font: clamp(0, 80px, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans';
+}
