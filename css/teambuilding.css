@@ -1,4 +1,3 @@
-
 .teambuilding {
     height: 90vh;
 
@@ -19,7 +18,7 @@
 }
 
 .teambuilding__info {
-    grid-column: 2/5;
+    grid-column: 1/6;
     grid-row: 2/3;
 
     display: flex;
@@ -27,6 +26,8 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+    text-align: center;
 
     color: var(--white);
 }
@@ -39,12 +40,10 @@
 .teambuilding__subHeading {
     font-size: 26px;
     font-weight: normal;
-
-    white-space: nowrap;
 }
 
 .teambuilding__about {
-    width: 500px;
+    width: 100%;
 
     font-size: 18px;
     text-align: center;
@@ -62,8 +61,8 @@
     color: var(--white);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .teambuilding__info {
-        grid-column: 4/5;
+        grid-column: 1/9;
     }
 }

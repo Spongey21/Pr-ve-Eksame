@@ -7,7 +7,7 @@
 
     position: fixed;
 
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
 
     width: 100%;
 }
@@ -23,4 +23,13 @@
     text-decoration: none;
 
     color: var(--white);
+
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
